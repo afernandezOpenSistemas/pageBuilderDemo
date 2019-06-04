@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Consumer from "fusion:consumer";
-import { generateKeyPair } from "crypto";
+import "./menu-content.scss";
+
 
 @Consumer
 class MenuContent extends Component {
   render() {
     return (
-      <div className="masthead" style={{ position: "absolute", left:"70px", height:400, width: 700, backgroundColor:"gray", zIndex:2000 }}>
+      <div className="menu-example">
         <span>MenuContent</span>
       </div>
     );
